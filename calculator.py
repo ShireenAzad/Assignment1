@@ -1,11 +1,10 @@
-#<<<<<<< HEAD
+
 def add(l):
 	sum=0
 	for i in l:
 		sum+=i
 	return sum
-#||||||| 8e832e3
-#=======
+
 def subtract(l):
 	diff=l[0]
 	length=len(l)
@@ -13,4 +12,3 @@ def subtract(l):
 		diff-=l[i]
 	return diff
 
-#>>>>>>> feature/subtraction
